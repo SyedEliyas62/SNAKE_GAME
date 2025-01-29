@@ -26,17 +26,20 @@ body {
 }
 
 .start-button {
-    background-color: orangered;
-    color: white;
-    padding: 15px 30px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    margin: 4px 0;
+    padding: 12px 24px;
     cursor: pointer;
-    border: none;
-    border-radius: 6px;
+    background: linear-gradient(to right, #f97316, #ea580c);
+    color: white;
+    font-weight: 600;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out;
 }
+
+.start-button:hover {
+    background: linear-gradient(to right, #9333ea, #3b82f6);
+}
+
 
 .food {
     width: 20px;
